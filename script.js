@@ -45,8 +45,8 @@ const quotes = [
 const quoteBtn = document.querySelector('#quoteBtn');
 const quoteAuthor = document.querySelector('#quoteAuthor');
 const quote = document.querySelector('#quote');
-//const authorImage = document.querySelector('#authorImage');
-const authorImage = document.getElementById('authorImage');
+const authorImage = document.querySelector('#authorImage');
+//const authorImage = document.getElementById('authorImage');
 //console.log(document.getElementById('authorImage'));
 
 quoteBtn.addEventListener('click', displayQuote);
