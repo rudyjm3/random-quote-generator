@@ -34,8 +34,8 @@ const quotes = [
     quote: '“Any way you look at it, all the information that a person accumulates in a lifetime is just a drop in the bucket.”'
   },
   {
-    img:"./images/Daisuke.jpg",
-    //img:"https://pbs.twimg.com/media/DVIF9GlXkAMYI_Q.jpg",
+    //img:"./images/Daisuke.jpg",
+    img:"https://pbs.twimg.com/media/DVIF9GlXkAMYI_Q.jpg",
     name:'Daisuke Aramaki',
     quote: '"There has never been a report about a stomach ache or any other related medical trauma from swallowing your pride."'
   },
