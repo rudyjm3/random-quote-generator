@@ -12,13 +12,13 @@ const quotes = [
     quote: '“All things change in a dynamic environment. Your effort to remain what you are is what limits you.”'
   },
   {
-    img:"https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/motoko-kusanagi-ghost-in-the-shell-stand-alone-complex-2nd-gig-individual-eleven-5.86.jpg",
+    img:"./images/Major.jpg",
     name:'Major Motoko Kusanagi',
     quote: '“If we all reacted the same way, we d be predictable, and theres always more than one way to view a situation...Its simple: overspecialize, and you breed in weakness. Its slow death.”'
   },
   {
     //img:"./images/Major.jpg",
-    img:"https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/motoko-kusanagi-ghost-in-the-shell-stand-alone-complex-2nd-gig-individual-eleven-5.86.jpg",
+    img:"./images/Major.jpg",
     name:'Major Motoko Kusanagi',
     quote: '“I feel confined, only free to expand myself within boundaries.”'
   },
@@ -61,3 +61,7 @@ function displayQuote (){
   console.log(quoteAuthor.innerHTML);
   quote.innerHTML = quotes[number].quote;
 }
+
+document.addEventListener("DOMContentLoaded", displayQuote(),{
+   //dom is fully loaded, but maybe waiting on images & css files
+});
